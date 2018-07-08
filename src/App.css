@@ -1,0 +1,42 @@
+ul {
+  list-style-type: none;
+}
+
+.App-header {
+  text-align: center;
+  background-color: #222;
+  height: 50px;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.Todo-list {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 0px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.Todo-task-content {
+  width: 500;
+}
+
+.Task-add {
+  padding-left: 40px;
+}
+
+.Task-done {
+  color: red;
+  text-decoration: line-through;
+}
+
+.Message {
+  padding-bottom: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
